@@ -12,6 +12,10 @@ class App extends React.Component {
     order: {}
   };
 
+  static propType = {
+    match: PropTypes.object
+  };
+
   componentDidMount() {
     const { params } = this.props.match;
     // Reinstate our localStorage
