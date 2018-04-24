@@ -13,7 +13,7 @@ class AddFishForm extends React.Component {
   };
 
   createFish = event => {
-    event.preventDefault;
+    event.preventDefault();
     const fish = {
       name: this.nameRef.value.value,
       price: parseFloat(this.priceRef.value.value),
